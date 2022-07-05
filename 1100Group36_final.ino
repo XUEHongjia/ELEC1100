@@ -5,7 +5,7 @@
 
   Group No. 36 (number on your project box):
   Group Member 1 (name: XUE Hongjia & SID: 20761325):
-  Group Member 2 (name & SID):
+  Group Member 2 (name & SID): Unknown and he was absent during the whole demo
 
 */
 // assign meaningful names to those pins that will be used
@@ -43,6 +43,8 @@ void setup ()
   analogWrite(pinL_PWM, 0);    //forward speed 
   analogWrite(pinR_PWM, 0);    //forward speed 
 }
+
+
 
 // the loop function runs over and over again forever
 
