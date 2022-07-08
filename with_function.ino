@@ -16,13 +16,17 @@ const int pinR_PWM = 11;         //pin D11
 const int pinL_DIR = 10;         //pin D10
 const int pinR_DIR = 12;         //pin D12
 const int pinB_Sensor = A4;  
+
+
 //define variables to be used in script
 int leftSensor = 1;
 int rightSensor = 1;
 int bumperSensor=1;             // initial condition is dark 
-int Ycrossing_number=0;         //initial Y shape crossing number=0
-int Wall_count=0;               //initial white wall number=0
+int Ycrossing_number = 0;         //initial Y shape crossing number=0
+int Wall_count = 0;               //initial white wall number=0
 // the setup function runs once when you press reset or power the board
+
+
 void setup ()
 {
   // define pins as input and output
